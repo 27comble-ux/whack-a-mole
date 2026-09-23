@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+      
+      <a-camera>
+      
+      <a-cursor></a-cursor>
+      
+      </a-camera>
+      
+      <a-sky
+      src="https://codehs.com/uploads/0e0c8295b51b5d2ba7119bcb1ceef4e4"
+     radius="9"
+      ></a-sky>
+      
+      <a-plane
+      
+      rotation="-90"
+      src="https://codehs.com/uploads/8d5b37f665c0cbf7834db7f286b66a09"
+      width="20"
+      height="20"
+      position="0 0 0"
+      
+      ></a-plane>
+      
+      <a-ring
+      
+      position="0 0.001 -5"
+      rotation="-90"
+      radius="3"
+      color="brown"
+      ></a-ring>
+       <a-ring
+      
+      position=" 0 0.001 5"
+      rotation="-90"
+      radius="3"
+      color="brown"
+      ></a-ring>
+       <a-ring
+      
+      position="-4.8 0.001 -.25"
+      rotation="-90"
+      radius="3"
+      color="brown"
+      ></a-ring>
+       <a-ring
+      
+      position="4.8 0.001 -.25"
+      rotation="-90"
+      radius="3"
+      color="brown"
+      ></a-ring>
+      
+      
+      
+      
+      
+      
+      <!-- moles-->
+      
+       <a-cylinder
+      
+      position="0 0.001 -5"
+      rotation="0 180 0"
+   height="2"
+      radius=".75"
+      src="https://codehs.com/uploads/356563148dc733f1423bb8114832e19b"
+      
+      animation="
+      
+      property: position;
+      from: 0 0 -5;
+      to: 0 -2.1 -5;
+      dur:3000;
+      delay: 2000;
+      dir: alternate;
+      easing: easeInOutElastic;
+      loop: true;
+      "
+      animation__2="
+      
+      property: position;
+      from:0 0 -5;
+      to:0 -2.1 -5;
+      dur:4000;
+      startEvents: click;
+      
+      "
+      ></a-cylinder>
+       <a-cylinder
+      
+      position=" 0 0.001 5"
+    height="2"
+ 
+  animation="
+      
+      property: position;
+      from: 0 0 5;
+      to: 0 -2.1 5;
+      dur:3000;
+      delay: 700;
+      dir: alternate;
+      easing: easeInOutElastic;
+      loop: true;
+      "
+      animation__2="
+      
+      property: position;
+      from: 0 0 5;
+      to: 0 -2.1 5;
+      dur:4000;
+      startEvents: click;
+      
+      "
+ 
+      radius=".75"
+     src="https://codehs.com/uploads/356563148dc733f1423bb8114832e19b"
+      ></a-cylinder>
+       <a-cylinder
+       animation="
+      
+      property: position;
+      from: -4.8 0 -.25;
+      to: -4.8 -2.1 -.25;
+      dur:3400;
+      delay: 2000;
+      dir: alternate;
+      easing: easeInOutElastic;
+      loop: true;
+      "
+      position="-4.8 0.001 -.25"
+          rotation="0 -90 0"
+ height="2"
+ 
+ animation__2="
+      
+      property: position;
+       from: -4.8 0 -.25;
+      to: -4.8 -2.1 -.25;
+      dur:4000;
+      startEvents: click;
+      
+      "
+      radius=".75"
+   src="https://codehs.com/uploads/356563148dc733f1423bb8114832e19b"
+      ></a-cylinder>
+       <a-cylinder
+       animation="
+      
+      property: position;
+      from: 4.8 0 -.25;
+      to: 4.8 -2.1 -.25;
+      dur:2500;
+      delay: 2000;
+      dir: alternate;
+      easing: easeInOutElastic;
+      loop: true;
+      "
+      position="4.8 0.001 -.25"
+          rotation="0 90 0"
+          animation__2="
+      
+      property: position;
+      from: 4.8 0 -.25;
+      to: 4.8 -2.1 -.25;
+      dur:4000;
+      startEvents: click;
+      
+      "
+height="2"
+      radius=".75"
+   src="https://codehs.com/uploads/356563148dc733f1423bb8114832e19b"
+      ></a-cylinder>
+      
+      
+      
+        </a-scene>
+    </body>
+</html>
